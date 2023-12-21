@@ -1,0 +1,48 @@
+body {
+    padding: 20px;
+    background: linear-gradient(
+        to bottom,
+        #08fc96, rgb(250, 245, 245));
+
+}
+
+#gridContainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #dd2ecf57;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #f87c07;
+    border-radius: 3px;
+    width: 10px;
+    height: 10px;
+}
+
+span {
+    color: #222;
+}
+
+#start,
+#clear,
+#random {
+    padding: .75em;
+    border-radius: 5px;
+    border: none;    
+    background: linear-gradient(
+        to bottom right,
+        #124df0, #f30a0a);
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #ee165e;
+    border-radius: 10px;
+}
+
